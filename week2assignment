@@ -1,0 +1,8 @@
+queue <- c ("james", "mary", "steve", "alex", "patricia")# 1 
+queue<- c ("james", "mary", "steve", "alex", "patricia","harold") #2
+queue<- c ("mary", "steve", "alex", "patricia", "harold")#3
+queue<- c ("mary", "steve", "pam", "alex", "patricia","harold")#4
+queue<- c ("mary", "steve", "pam", "alex", "patricia")#5
+queue<- c ("mary", "steve", "pam", "patricia")#6
+queue[1:4]#7 patricia is 4th in the queue
+length(queue)#8 the number of people in the queue is 4
