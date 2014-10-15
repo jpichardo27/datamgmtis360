@@ -1,0 +1,16 @@
+---
+title: "USArrests"
+output: html_document
+data analyzed By: Janpolo Pichardo
+dataset via: http://vincentarelbundock.github.io/Rdatasets/datasets.html
+
+
+```{r}
+summary(USArrests)
+```
+```{r}ggplot(USArrests, aes(x=Assault, y=UrbanPop))+ geom_line()
+       ggplot(USArrests, aes(x=Murder, y=UrbanPop))+ geom_line()
+````    ggplot(USArrests, aes(x=Rape, y=UrbanPop))+ geom_line()
+
+```{r, echo=FALSE}
+plot(USArrests)
